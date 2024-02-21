@@ -1,0 +1,87 @@
+/* Comentarios */
+
+
+
+/* 
+                 ..........
+                    CSS
+                 ..........
+                 Lenguaje de estilos asociado a los lenguajes de 
+                 marcas. Cascading Style Sheet, con una finalidad
+                 clara, la de definir estilos y representaciones
+                 en el DocType.
+                 Sintaxis General:
+                 elememto(etiqueta) {
+                    atributo: valor;
+                 }
+
+*/
+
+
+    h2{
+        color: firebrick;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    /*  La, (coma) permitirá agregar etiquetas que
+    sumaraán a los estilos */
+
+
+h1{
+    color: firebrick;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+div{
+text-align: center;
+}
+/* 
+B. referencia de conexión
+
+La conexión de referencia entre estilos en css será la 
+archiconocida referencia .¨class (.) ; Entendido
+como el selector de la referencia de conexión con el
+DocType al cual accederá con el atributo class=""
+Sintaxis:
+.nombre_referencia{
+    atributo:valor;
+
+*/
+.fondo{
+    background-image: url(../image/luna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* EJERCICIO:
+
+1 Encabezado poner mas grande
+2 los parrafos justificados, con color blanco y letra mas grande.
+3 Una tabla fondo blanco en la barra de navegacion
+Inicio       Contacto     quienes somos
+4 Final párrafo con enlace a vuestro teléfono en el faldón
+ */
+p{
+    text-align: justify;
+    text-align: center;
+      color: whitesmoke;
+      font-size: 20px;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    background-color: azure;
+    font-size: 18px;
+}
+a{
+    text-emphasis: none;
+}
+img{
+    width: 6%;
+    text-align: left;
+}
+.faldon{
+    text-align: left;
+    text-align: center;
+}

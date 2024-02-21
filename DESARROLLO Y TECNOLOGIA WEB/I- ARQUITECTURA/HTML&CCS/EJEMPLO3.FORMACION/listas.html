@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ------
+    LISTAS
+--------
+A. Listas ordenadas
+presenta elementos de forma ordenada (numerica o alpha)
+Etiquetas contenedoras
+Sintaxis
+
+
+Atributos Asociados: type¨¨
+Valores:
+¨l¨
+
+¨a¨
+-->
+    <div>
+        <h2 align="center">Ejemplo de listas</h2>
+        <h3>Listas ordenadas</h3>
+        <h4>Ejemplo 1: LISTAS SIMPLES Ó SENCILLAS</h4>
+        <ol type="i">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+        <h2></h2>
+
+        <h3></h3>
+        <hr width="80%">
+        <!-- 
+            B. LISTAS NO ORDENADAS
+            Elementos donde el orden no es prioritario. asociado a viñetas
+            Sintaxis:
+        </ul>
+        <li></li>
+        >/ul>
+        Atributos asociados:
+        type=¨¨
+        Valores: 
+        Circle,  Square, disk
+         -->
+         <h3> listas no ordenadas</h3>
+         <h4> Ejemlo 1: listas clasicas</h4>
+         <ul>
+            <li>Vino</li>
+            <li>Refrescos de 2l </li>
+            <li>Patatas Fritas</li>
+        
+         </ul>
+            
+         <hr width="80%">
+         <h4>Ejemplo 2: Sin listas</h4>
+         <!-- 
+            Atributo General para sustituir a los atributos independientes
+            sintaxis:
+            Styles=¨¨
+          -->
+          <ul style="list-style: none;text-align: center;">
+
+            <li>🐱‍🐉...Ford</li>
+            <li>👌Maseratti</li>
+            <li>Jeep</li>
+
+          </ul>
+          <hr style="width: 80%">
+          <h4>Ejemplo 3: listas glosarios</h4>
+          <!-- 
+            B.1 Glosarios
+            Generar definiciones
+            sintaxis:
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+
+
+        
+          
+           -->
+           <dl>
+            <dt style="color: red;">HTML5</dt>
+            <dd>Metalenguaje para la visualizacion en DocType</dd>
+            <dt style="color: chartreuse;">CCCS</dt>
+            <dd>Lenguaje generador de estilos de aplicación en Cascada, de manera
+                independiente</dd>
+                <dt style="font-weight: bold;">35</dt>
+                <dd>Lenguaje de ejecución dinámica en el entorno Cliente</dd>
+             </dl>
+           <hr style="width: 80%;">
+           <!-- C. Listas Desplegables
+        Auna un conjunto de una lista
+    Sintaxis: De forma general utilizaremos la etiqueta <select>
+        a)<select>
+            <option>>/option>
+            </select>
+            b)<select>
+                <optogroup>
+                    <option></option>
+                    </option>
+                </select>
+            
+ -->
+
+
+
+           <h3> listas deplegables</h3>
+         <h4> Ejemlo 1: listas sencillas</h4>
+         <div style="text-align: center;">
+            <select>
+            <option value="">-------Selecciona-----</option>
+            <option value="">JavaScrip</option>
+            <option value="">CSS3</option>
+            <option value="">HTML5</option>
+         </select><br>
+         <h4>Ejemplo 2: desplegable compuesto</h4>
+        </div>
+         <div style="text-align: right;">
+            <select>
+                <optgroup label="1º opcion">
+                    <option value="">JavaScrip</option>
+                    <option value="">CSS3</option>
+                    <option style="color: red;">HTML5</option> 
+                </optgroup>
+                <optgroup style="color: blue;" label="2º opcion">
+                    <option value="">python</option>
+                  <option value="">C++</option>
+                 <option value="">Kotlin</option>
+                    
+                </optgroup>
+            </select>
+         
+         </div>
+
+           
+
+
+    </div>
+
+</body>
+
+</html>

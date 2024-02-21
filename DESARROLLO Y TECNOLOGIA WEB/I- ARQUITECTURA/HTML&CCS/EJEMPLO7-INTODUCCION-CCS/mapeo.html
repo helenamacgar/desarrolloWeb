@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retícula o Mapeo</title>
+    <link real="shortcut icon" href="https://support.content.office.net/es-es/media/3dd2b79b-9160-403d-9967-af893d17b580.png" type="icon">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h3>LAS TABLAS</h3>
+        <h4>ejercicio 1: Tabla simple</h4>
+        <!--  Las tablas es un elemento  independiente
+        al igual qque la listas, tenemos que tener en cuenta
+    su comportamiento añadido.
+Las tablas a dia de hoy han variado mucho, en cuanto a su
+estilo, que antes solamente referenciaba en su arquitectura.
+Su impoortancia a dia de hoy versa en la estructura que generan
+Sintaxis:
+<table>
+    (fila)  <tr>
+    (columna)     <td> </td>
+               </tr>
+     </table>
+     atibutos:
+     border
+     valores numericos:
+     1,2,3
+
+     Etiqueta asociada a las tablas
+     <caption></caption>
+        -->
+        <table border="1" style="text-align: center;margin:0 auto; color: blue;">
+
+        <!-- fin 1º tabla -->
+        <br>
+            <caption><b>Tabla de la vida</b></caption>
+             <tr>
+            <td>traduccion</td>
+            <td>LE vite</td>
+            <td>Le mort</td>
+            </tr>
+            <tr>
+            <td>Español</td>
+            <td>LE vida</td>
+            <td>La muerte</td>
+            </tr>
+    </table> <br>
+    <table border="2" style="text-align: center;margin: 0 auto; color: blueviolet;">
+            <tr>
+              <td>uno</td>
+              <td>dos</td>
+              <td>tres</td>
+            </tr>
+            <tr>
+              <td>cuatro</td>
+              <td>cinco</td>
+              <td>seis</td>
+            </tr>
+            <tr>
+              <td>siete</td>
+              <td>ocho</td>
+              <td>nueve</td>
+            </tr>
+            <tr>
+                <td>diez</td>
+                <td>once</td>
+                <td>doce</td>
+            </tr>
+        </table>
+        <!-- fin de la tabla -->
+        <hr style="width: 80%;">
+
+        </div>
+        <div style="text-align: center;">
+            <pre>Ejercicio:
+                realizar una tabla donde nuestros dos o 
+                tres buscadores con las siguentes
+                condiciones:
+                a. Los bucadores con imagen(imagen)
+                b. En otra parte de la tabla un enlace directo
+                al buscadores.
+                c. En otra parte su descripcion.
+
+                </pre>
+             </div> 
+             <table style="text-align: center; margin:0 auto;">
+            <tr style="font-size: 20px;" color="">
+                <td>Buscador</td>
+                <td>Imagen</td>
+                <td>Descripción</td>
+
+            </tr><br>
+            <tr>
+                <td><img src="image/google imagen.png" style="width: 70px;"></td>
+                <td><a href="https://www.google.com/"><img src="image/bolitagoogle.png" alt="" style="width: 10%;"></a></td>
+                <td>Buscador nuevo de contenido multimedia</td>
+            </tr>
+            <tr>
+                <td><img src="" alt=""></td>
+                <td><a href="https://www.bing.com/"><img src="" alt=""></a></td>
+                <td></td>
+            </tr>
+            <colgroup>
+                <col style="background-color: blue;">
+            <col style="background-color: coral;">
+            <col style="background-color: aquamarine;">
+        </colgroup>
+            </table> <br>
+            <hr style="width: 80%;">
+
+        </div>
+        <div>
+            <pre>EJERCICIO:
+            </pre>
+            <table></table>
+            <!-- ..................................
+                 COMPOSICION Y COMBINACION DE CELDAS
+                ................................... 
+            Atributos       Valor          Descripcion
+            colspam        nº espacios     nº a combinar entre columnas
+            rowspam        nº espacios     nº a combinar entre filas
+        -->
+        <h3>ejercicio</h3>
+        <h4>tablas combinadas</h4>
+        <table border="2" style="margin: 0 auto;">
+        <caption>combinaciones</caption>
+    <tr>
+        <th>COLOMNA 1</th>
+        <th>COLUMNA 2</th>
+        <th>COLOMNA 3</th>
+        <th>COLUMNA 4</th> 
+        <!--  <th>Error</th> -->
+    </tr>
+    <tr>
+        <td colspan="2"> DATO 1</td>
+        <th>Dato1</th>
+        <th>Dato2</th>
+        <th>Dato3</th>
+        <th>Dato4</th>
+    </tr>
+    <tr>
+        <th>Dato5</th>
+        <th>Dato6</th>
+        <th>Dato7</th>
+        <th>Dato8</th>
+    </tr>
+    <tr>
+        <th>Dato9</th>
+        <th>Dato10</th>
+        <th>Dato11</th>
+        <th>Dato12</th>
+    </tr>
+</table>
+
+        </div>
+
+    
+</body>
+</html>

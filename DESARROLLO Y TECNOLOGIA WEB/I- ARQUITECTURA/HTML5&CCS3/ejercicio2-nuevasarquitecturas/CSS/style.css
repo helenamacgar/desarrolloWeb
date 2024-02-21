@@ -1,0 +1,55 @@
+body{
+    background-color: gainsboro;
+}
+/* Configuración de tamaño visual sin scroll en WEB */
+div{
+    width:980px;
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    width: 980px;
+    height: 120px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    float: left;
+
+}
+nav{
+    width: 980px;
+    height: 80px;
+    background-color: navy;
+    color: whitesmoke;
+    float: left;
+}
+section{
+    width: 780px;
+    height: 420px;
+    background-color: lightgray;
+    color: whitesmoke;
+    /* ARCHICONOCIDO ATRIBUTO DE COLOCACIÓN DE ELEMENTO,
+    DONDE CADA UNO SE LE INDICA CUAL ES SU POSICIÓN */
+    float: left;
+}
+article{
+    width: 780px;
+    background-color: lightgrey;
+    height: 210px;
+    float: left;
+    border: 2px solid black;
+}
+aside{
+    width: 200px;
+    height: 210px;
+    background-color: indianred;
+    float: right;
+
+}
+footer{
+    width: 980px;
+    height: 80px;
+    float: left;
+    background-color: brown;
+    color: whitesmoke;
+
+}
