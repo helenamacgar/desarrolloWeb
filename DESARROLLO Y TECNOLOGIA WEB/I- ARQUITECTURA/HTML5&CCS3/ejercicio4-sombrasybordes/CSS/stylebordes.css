@@ -1,0 +1,13 @@
+h2{
+    text-align: center;
+}
+/* ESTRUCTURA DEL DIV, podemos ver su presencia 
+a travez de inspector de nuestro (navegador)*/
+div{
+    height: 200px ;
+    width: 200px;
+    background-color: cornflowerblue;
+    margin:  20px;
+    display: inline-block;
+}
+/*  ESTRUCTURA DE BORDEADO */
