@@ -10,4 +10,27 @@ div{
     margin:  20px;
     display: inline-block;
 }
-/*  ESTRUCTURA DE BORDEADO */
+/*  ESTRUCTURA DE BORDEADOs
+atributogeneral  */
+.cuadro1{
+    border-radius: 20px;
+}
+.cuadro2{
+    border-radius: 20px 60px;
+}
+.cuadro3{
+    width: 200px;
+    height: 300px;
+    border-radius: 35px 50px;
+
+}
+/* porcentajes relevantes */
+.cuadro4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.cuadro5{
+    
+}
